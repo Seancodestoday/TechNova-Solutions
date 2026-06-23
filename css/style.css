@@ -1,16 +1,42 @@
+/* === Base === */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #031B34;
-    color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-header {
-    padding: 20px;
+  background-color: #0D1B2A;
+  color: #F0E6CC;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
-header h1 {
-    color: #FFFFFF;
-    margin: 0;
+/* === Navigation === */
+nav {
+  background-color: #1B2D42;
+  padding: 16px 32px;
+  border-bottom: 1px solid #274060;
+}
+
+/* === Headings === */
+h1, h2, h3 {
+  color: #F0E6CC;
+}
+
+/* === Accent / Buttons === */
+a, .btn-primary {
+  color: #C9A84C;
+}
+
+.btn-primary {
+  background-color: #C9A84C;
+  color: #0D1B2A;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* === Cards / Sections === */
+.card {
+  background-color: #1B2D42;
+  border: 1px solid #274060;
+  border-radius: 8px;
+  padding: 24px;
 }
