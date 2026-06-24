@@ -11,6 +11,9 @@ nav {
   background-color: #1B2D42;
   padding: 16px 32px;
   border-bottom: 1px solid #274060;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* === Headings === */
@@ -21,6 +24,13 @@ h1, h2, h3 {
 /* === Accent / Buttons === */
 a, .btn-primary {
   color: #C9A84C;
+}
+
+.hero {
+    background: url('/images/logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .btn-primary {
