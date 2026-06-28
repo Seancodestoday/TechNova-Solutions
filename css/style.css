@@ -371,3 +371,73 @@ a, .btn-primary {
     color:#555;
     line-height:1.8;
 }
+/* ==========================
+   TEAM
+========================== */
+
+.team-intro{
+    text-align:center;
+    padding:60px 40px 20px;
+}
+
+.team-intro h2{
+    font-size:2.5rem;
+    color:#F0E6CC;
+    margin-bottom:20px;
+}
+
+.team-intro p{
+    width:70%;
+    margin:auto;
+    color:#ddd;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+
+.team-card{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+}
+
+.team-card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.team-card h3{
+    margin-top:20px;
+    color:#0D1B2A;
+    font-size:1.6rem;
+}
+
+.team-card h4{
+    color:#D49400;
+    margin:10px 0 20px;
+    font-weight:600;
+}
+
+.team-card p{
+    padding:0 25px 30px;
+    color:#555;
+    line-height:1.8;
+}
