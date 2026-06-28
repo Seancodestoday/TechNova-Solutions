@@ -228,3 +228,90 @@ a, .btn-primary {
     line-height:1.8;
     font-size:1rem;
 }
+/* ===========================
+   GALLERY
+=========================== */
+
+.gallery-intro{
+    text-align:center;
+    padding:60px 40px 20px;
+}
+
+.gallery-intro h2{
+    font-size:2.5rem;
+    color:#F0E6CC;
+    margin-bottom:20px;
+}
+
+.gallery-intro p{
+    width:70%;
+    margin:auto;
+    line-height:1.8;
+    color:#ddd;
+    font-size:1.1rem;
+}
+
+.gallery-container{
+
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+
+    padding:50px;
+}
+
+.gallery-card{
+
+    width:360px;
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+    transition:.3s;
+}
+
+.gallery-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.gallery-card img{
+
+    width:100%;
+    height:250px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.gallery-card h3{
+
+    text-align:center;
+
+    color:#0D1B2A;
+
+    margin-top:25px;
+
+    margin-bottom:15px;
+
+    font-size:1.6rem;
+}
+
+.gallery-card p{
+
+    padding:0 25px 30px;
+
+    color:#555;
+
+    text-align:center;
+
+    line-height:1.8;
+}
