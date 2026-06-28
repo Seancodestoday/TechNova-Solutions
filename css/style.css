@@ -191,3 +191,40 @@ a, .btn-primary {
 .contact-form button:hover{
     background:#b57f00;
 }
+/* ==========================
+   FAQ CARDS
+========================== */
+
+.faq-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:60px 40px;
+}
+
+.faq-card{
+    width:350px;
+    background:rgba(255,255,255,0.95);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:all 0.3s ease;
+}
+
+.faq-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.25);
+}
+
+.faq-card h3{
+    color:#0D1B2A;
+    margin-bottom:15px;
+    font-size:1.3rem;
+}
+
+.faq-card p{
+    color:#555;
+    line-height:1.8;
+    font-size:1rem;
+}
