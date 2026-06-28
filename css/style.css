@@ -1,16 +1,16 @@
 /* === Base === */
 body {
   background-color: #0D1B2A;
-  color: #F0E6CC;
+  color: #FFFFFF;
   font-family: 'Inter', sans-serif;
   margin: 0;
 }
 
 /* === Navigation === */
 nav {
-  background-color: #1B2D42;
+  background-color: #eff0f1;
   padding: 16px 32px;
-  border-bottom: 1px solid #274060;
+  border-bottom: 1px solid #e9eaec;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,12 +18,12 @@ nav {
 
 /* === Headings === */
 h1, h2, h3 {
-  color: #F0E6CC;
+  color: #8207ed;
 }
 
 /* === Accent / Buttons === */
 a, .btn-primary {
-  color: #C9A84C;
+  color: #06d444;
 }
 
 .hero {
@@ -32,6 +32,7 @@ a, .btn-primary {
     background-position: center;
     height: 100vh;
 }
+
 
 .btn-primary {
   background-color: #C9A84C;
@@ -49,4 +50,54 @@ a, .btn-primary {
   border: 1px solid #274060;
   border-radius: 8px;
   padding: 24px;
+}
+.card {
+    background: rgba(16, 16, 16, 0.95);
+    width: 450px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+/* ==========================
+   Services Cards
+========================== */
+
+.services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+}
+
+.service-card{
+    background: rgba(255,255,255,0.92);
+    width: 320px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.service-card h3{
+    color: #0D1B2A;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.service-card p{
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
 }
