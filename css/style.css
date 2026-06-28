@@ -315,3 +315,59 @@ a, .btn-primary {
 
     line-height:1.8;
 }
+/* ===========================
+   PORTFOLIO
+=========================== */
+
+.portfolio-intro{
+    text-align:center;
+    padding:60px 40px 20px;
+}
+
+.portfolio-intro h2{
+    font-size:2.5rem;
+    color:#F0E6CC;
+    margin-bottom:20px;
+}
+
+.portfolio-intro p{
+    width:70%;
+    margin:auto;
+    color:#ddd;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+
+.portfolio-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+.portfolio-card{
+    width:380px;
+    background:white;
+    border-radius:15px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.portfolio-card:hover{
+    transform:translateY(-10px);
+}
+
+.portfolio-card h3{
+    color:#0D1B2A;
+    margin-bottom:20px;
+    font-size:1.6rem;
+}
+
+.portfolio-card p{
+    color:#555;
+    line-height:1.8;
+}
